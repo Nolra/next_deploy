@@ -3,6 +3,9 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
+import verselSVG from './vercel.svg'
+import nextSVG from "./next.svg"
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -28,7 +31,7 @@ export default function Home() {
             >
               By{' '}
               <Image
-                src="/vercel.svg"
+                src={verselSVG}
                 alt="Vercel Logo"
                 className={styles.vercelLogo}
                 width={100}
@@ -42,7 +45,7 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
+            src={nextSVG}
             alt="Next.js Logo"
             width={180}
             height={37}
