@@ -3,8 +3,8 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
-import verselSVG from './vercel.svg'
-import nextSVG from "./next.svg"
+import verselSVG from '../public/vercel.svg'
+import nextSVG from "../public/next.svg"
 
 const inter = Inter({ subsets: ['latin'] })
 
